@@ -14,10 +14,10 @@ Vâng, gần đây Google đã thông báo rằng RankBrain là cách thức x�
 
 Và giờ nó trở nên quan trọng hơn rất nhiều.
 
-Trong bài hướng dẫn này, bạn sẽ được học mọi thứ mà bạn cần biết về thuật toán Google RankBrain. Làm thôi nào
+Trong bài hướng dẫn này, bạn sẽ được học mọi thứ mà bạn cần biết về thuật toán Google RankBrain. Bắt đầu thực hiện thôi nào
 
-# CHAPTER 1:
-## Google RankBrain: A Visual Explanation
+# Chương 1:
+## Google RankBrain: Một sự giải thích trực quan
 
 ![][2]
 
@@ -55,14 +55,14 @@ Tóm lại, RankBrain đã hoạt động. Và nó đã ở đây.
 Bây giờ bạn đã thấy tổng quan về RankBrain là gì, hãy đi sâu vào cách hoạt động của RankBrain.
 
 
-# CHAPTER 2:
-## How RankBrain Works
+# Chương 2:
+## RankBrain làm việc thế nào ?
 
 ![][6]
 
 RankBrain gồm 2 phần công việc chính
 1. Hiểu được câu truy vấn tìm kiếm (các từ khóa)
-2. Đo lượng tương tác của mọi người đối với kết quả (sự hài lòng của người dùng)
+2. Đo lường tương tác của mọi người đối với kết quả (sự hài lòng của người dùng)
 
 Hãy chia nhỏ từng phần này.
 
@@ -90,15 +90,15 @@ Hiện nay, RankBrain thực sự hiểu những gì bạn đang yêu cầu. Và
 
 Không tệ.
 
-Nó đã thay đổi điều gì? Trước khi, Google đã cố gắng tìm các từ mà bạn tìm kiếm với các từ trên page.
+Nó đã thay đổi điều gì? Trước đây, Google đã cố gắng tìm các từ mà bạn tìm kiếm với các từ trên page.
 
 Hiện nay,  RankBrain cố gắng thực sự tìm ra ý của bạn. Bạn biết đấy, nó khá giống như một con người.
 
-Làm cách nào? Bằng cách đối sánh các từ khóa chưa từng thấy trước với các từ khóa mà Google đã thấy trước đây.
+Làm cách nào? Bằng cách so sánh các từ khóa chưa từng thấy trước với các từ khóa mà Google đã thấy trước đây.
 
 Ví dụ, Google RankBrain có thể đã nhận thấy rằng rất nhiều người tìm kiếm "giao diện điều khiển màu xám được phát triển bởi Nintendo".
 
-Và họ đã học được rằng những người tìm kiếm “bảng điều khiển màu xám do Nintendo phát triển” muốn xem một tập hợp các kết quả về bảng điều khiển trò chơi.
+Và chúng đã học được rằng những người tìm kiếm “bảng điều khiển màu xám do Nintendo phát triển” muốn xem một tập hợp các kết quả về bảng điều khiển trò chơi.
 
 Vì vậy, khi ai đó tìm kiếm "giao diện điều khiển màu xám do Sony phát triển", RankBrain sẽ trả về các kết quả tương tự với từ khóa mà nó đã biết ("bảng điều khiển màu xám do Nintendo phát triển").
 
